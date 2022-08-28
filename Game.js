@@ -154,6 +154,7 @@ class Game {
           this.blast = true
           gameState = 2
           this.gameOver
+          gameOver()
         }
 
         cars[index - 1].position.x = x;
