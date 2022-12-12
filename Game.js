@@ -162,7 +162,7 @@ class Game {
 
         if (index === player.index) {
           stroke(10);
-          fill("red");
+          fill("blue");
           ellipse(x, y, 60, 60);
 
           this.handleFuel(index);
